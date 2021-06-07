@@ -1,8 +1,0 @@
-.footer__list-item {
-  margin-top: 10px;
-  list-style-type: none;
-}
-
-.footer__list-item:first-of-type {
-  margin-top: 0;
-}
