@@ -1,6 +1,6 @@
 .content {
   border:.5px dashed green;
   width: 1170px;
-  background-color: rgb(225, 255, 225);
-  
+  background-color: rgb(250, 255, 250);
+  margin: 0 auto;
 }
