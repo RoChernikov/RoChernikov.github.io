@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.logo__background {
+  font-family: 'Lato', 'PT Sans', sans-serif;
+  height: 23px;
+  width: 39px;
+  background-color: #4A90E2;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

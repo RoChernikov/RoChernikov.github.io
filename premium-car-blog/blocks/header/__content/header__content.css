@@ -1,6 +1,12 @@
 .header__content {
-  border: .5px solid orange;
+  /* border: .5px solid red; */
+  position: relative;
   width: 1170px;
   background-color: #000;
   margin: 0 auto;
+  padding: 34px 0 33px;
+  display: flex;
+  flex-basis: 1170px;
+  align-items: center;
+  justify-content: space-between;
 }

@@ -1,7 +1,26 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__label/logo__label.css);
+@import url(../blocks/logo/__text/logo__text.css);
+@import url(../blocks/logo/__background/logo__background.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/nav/nav.css);
+@import url(../blocks/nav/__list/nav__list.css);
+@import url(../blocks/nav/__item/nav__item.css);
+@import url(../blocks/nav/__link/nav__link.css);
+@import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__content/footer__content.css);
+
+
+
+.center-item {
+  background-color: teal;
+  width: 370px;
+  height: 150px;
+  margin: 0 auto;
+}
