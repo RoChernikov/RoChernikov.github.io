@@ -1,5 +1,5 @@
 .content {
   border:.5px dashed green;
-  width: 1170px;
+  min-width: 1170px;
   background-color: rgb(250, 255, 250);
 }
