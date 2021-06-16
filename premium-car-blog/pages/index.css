@@ -16,12 +16,16 @@
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__top/footer__top.css);
+@import url(../blocks/footer/__bottom/footer__bottom.css);
 @import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__content/_top/footer__content_top.css);
+@import url(../blocks/footer/__content/_bottom/footer__content_bottom.css);
 
 
 
 .center-item {
-  background-color: teal;
+  background-color: rgb(230, 230, 230);
   width: 370px;
   height: 150px;
   margin: 0 auto;

@@ -1,7 +1,5 @@
 .footer__content {
-  border: .5px solid orange;
+  border: .5px dashed orange;
   width: 1170px;
-  background-color: #171717;
   margin: 0 auto;
-  padding: 0 20px;
 }

@@ -2,4 +2,6 @@
   border:.5px dashed green;
   min-width: 1170px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
 }
