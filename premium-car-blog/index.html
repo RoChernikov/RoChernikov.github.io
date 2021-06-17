@@ -14,7 +14,7 @@
 <body class="page">
   <!--Шапка сайта, блок header-->
   <header class="header">
-    <div class="header__content">
+    <div class="header__content side-padding">
       <div class="logo">
         <div class="logo__label"></div>
         <div class="logo__background">
@@ -37,7 +37,7 @@
     </div>
   </header>
   <!--Основное содержимое страницы, блок content-->
-  <main class="content">
+  <main class="content side-padding">
     <div class="center-item"></div>
     <div class="center-item"></div>
     <div class="center-item"></div>
@@ -45,11 +45,50 @@
   <!--Подвал сайта, блок footer-->
   <footer class="footer">
     <div class="footer__top">
-      <div class="footer__content footer__content_top"></div>
+      <div class="footer__content footer__content_top side-padding">
+        <div class="footer__column">
+          <div class="logo">
+            <div class="logo__label"></div>
+            <div class="logo__background">
+              <p class="logo__text">car</p>
+            </div>
+            <a href="#" class="logo__link"></a>
+          </div>
+          <p class="footer__description">Short description about the company Lorem Ipsum is simply dummy text of the
+            printing and typesetting industry.</p>
+          <div class="footer__social">
+            <h3 class="footer__title">Keep in touch</h3>
+            <ul class="footer__social-links">
+              <li class="footer__list-item"><a href="#" target="_blank" class="footer__social-link">
+                  <img src="./images/social/facebook.svg" alt="Facebook" class="footer__social-icon"></a></li>
+              <li class="footer__list-item"><a href="#" target="_blank" class="footer__social-link">
+                  <img src="./images/social/twitter.svg" alt="twitter" class="footer__social-icon"></a></li>
+              <li class="footer__list-item"><a href="#" target="_blank" class="footer__social-link">
+                  <img src="./images/social/pinterest.svg" alt="Pinterest" class="footer__social-icon"></a></li>
+              <li class="footer__list-item"><a href="#" target="_blank" class="footer__social-link">
+                  <img src="./images/social/google-plus.svg" alt="Google Plus" class="footer__social-icon"></a></li>
+              <li class="footer__list-item"><a href="#" target="_blank" class="footer__social-link">
+                  <img src="./images/social/instagram.svg" alt="Instagram" class="footer__social-icon"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__column"></div>
+        <div class="footer__column"></div>
+      </div>
     </div>
     <div class="footer__bottom">
-      <div class="footer__content footer__content_bottom"></div>
-    </div>
+      <div class="footer__content footer__content_bottom side-padding">
+        <p class="footer__copyright">&copy; 2021 Rodion Chernikov. All Rights Reserved.</p>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Recipes</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Article</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Purchase</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </footer>
 </body>

@@ -1,0 +1,6 @@
+.footer__column {
+  position: relative;
+  border: .5px dashed white;
+  width: 370px;
+  height: 269px;
+}

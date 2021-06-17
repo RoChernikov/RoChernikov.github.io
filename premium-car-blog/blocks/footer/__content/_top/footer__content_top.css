@@ -1,5 +1,7 @@
 .footer__content_top {
-  padding: 62px 20px 0;
-  height: 100px;
+  padding: 62px 0 49px;
+  min-height: 269px;
   background-color: #171717;
+  display: flex;
+  justify-content: space-between;
 }
