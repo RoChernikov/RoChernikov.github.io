@@ -1,0 +1,20 @@
+.posts-grid__item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.posts-grid__item:before {
+  display: block;
+  height: 165px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  background: linear-gradient(180deg, rgba(0, 0, 0, 7.5e-05) 0%, rgba(0, 0, 0, 0.75) 82.82%);
+}
+
+.posts-grid__item_order_first.posts-grid__item:before {
+  height: 188px;
+}

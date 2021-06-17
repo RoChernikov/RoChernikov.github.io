@@ -20,6 +20,12 @@
 @import url(../blocks/nav/__link/nav__link.css);
 @import url(../blocks/nav/__item/nav__item.css);
 @import url(../blocks/content/content.css);
+@import url(../blocks/posts-grid/posts-grid.css);
+@import url(../blocks/posts-grid/__list/posts-grid__list.css);
+@import url(../blocks/posts-grid/__item/posts-grid__item.css);
+@import url(../blocks/posts-grid/__item/_orger/posts-grid__item_order_first.css);
+@import url(../blocks/posts-grid/__card/posts-grid__card.css);
+@import url(../blocks/posts-grid/__img/posts-grid__img.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);
@@ -41,12 +47,3 @@
 @import url(../blocks/footer/__recent-posts-text/footer__recent-posts-text.css);
 @import url(../blocks/footer/__recent-posts-title/footer__recent-posts-title.css);
 @import url(../blocks/footer/__recent-posts-subtitle/footer__recent-posts-subtitle.css);
-
-
-
-
-.center-item {
-  background-color: rgb(230, 230, 230);
-  width: 370px;
-  height: 150px;
-}
