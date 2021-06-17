@@ -26,10 +26,10 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__socials/footer__socials.css);
-@import url(../blocks/footer/__social-links/footer__social-links.css);
+@import url(../blocks/footer/__socials-links/footer__socials-links.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
-@import url(../blocks/footer/__social-link/footer__social-link.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__socials-link/footer__socials-link.css);
+@import url(../blocks/footer/__socials-icon/footer__socials-icon.css);
 
 @import url(../blocks/side-padding/side-padding.css);
 
