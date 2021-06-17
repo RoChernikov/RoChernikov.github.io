@@ -1,10 +1,8 @@
 .nav__list {
-  width: 368px;
   padding: 0;
   margin: 0;
   font-size: 14px;
   font-weight: 400;
   list-style: none;
   display: flex;
-  justify-content: space-between;
 }
