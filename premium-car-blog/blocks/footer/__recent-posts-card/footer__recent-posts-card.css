@@ -1,0 +1,6 @@
+.footer__recent-posts-card {
+  padding-top: 25px;
+  max-width: 293px;
+  display: flex;
+  justify-content: space-between;
+}

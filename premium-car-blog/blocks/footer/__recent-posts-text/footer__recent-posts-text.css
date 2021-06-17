@@ -1,0 +1,4 @@
+.footer__recent-posts-text {
+  display: flex;
+  flex-direction: column;
+}
