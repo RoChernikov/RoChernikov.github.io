@@ -1,7 +1,12 @@
 .footer__list-item {
   padding-right: 15px;
+  transition: opacity .2s linear;
 }
 
 .footer__list-item:last-child {
   padding-right: 0;
+}
+
+.footer__list-item:hover {
+  opacity: 50%;
 }
