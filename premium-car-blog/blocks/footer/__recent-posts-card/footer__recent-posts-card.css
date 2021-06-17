@@ -1,6 +1,12 @@
 .footer__recent-posts-card {
+  position: relative;
   padding-top: 25px;
   max-width: 293px;
   display: flex;
   justify-content: space-between;
+  transition: transform .12s linear;
+}
+
+.footer__recent-posts-card:hover {
+  transform: scale(1.03);
 }
