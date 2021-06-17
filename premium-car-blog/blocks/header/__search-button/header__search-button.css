@@ -2,4 +2,9 @@
   display: block;
   width: 16px;
   height: 17px;
+  transition: opacity .2s linear;
+}
+
+.header__search-button:hover {
+  opacity: 50%;
 }
