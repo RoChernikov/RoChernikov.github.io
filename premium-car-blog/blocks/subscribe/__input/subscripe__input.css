@@ -1,0 +1,22 @@
+.subscribe__input {
+  background-color: #fff;
+  width: 270px;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 10px;
+  padding: 0 0 0 14px;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+
+}
+
+::placeholder {
+  font-size: 14px;
+  color: #aeb3bb;
+}
+
+.subscribe__input:focus {
+  outline: none;
+  border-color: #666;
+  color: #aeb3bb;
+}

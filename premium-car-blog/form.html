@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="./pages/index.css" rel="stylesheet">
+  <style>
+    .test-box {
+      height: 705px;
+      width: 100%;
+      background-color: #171717;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .box {
+      border: .5px dashed white;
+      width: 370px;
+      height: 370px;
+    }
+
+    .box2 {
+      border: .5px dashed white;
+      width: 370px;
+      height: 370px;
+      background-color: #fff;
+    }
+  </style>
+</head>
+
+<body class="page">
+  <div class="test-box">
+    <div class="box">
+      <form class="subscribe" method="post" action="">
+        <input type="email" name="email" id="subscribe_email" placeholder="user@email.com" autocomplete="off"
+          required="" class="subscribe__input">
+        <input type="email" name="email" id="subscribe_email" placeholder="user@email.com" autocomplete="off"
+          required="" class="subscribe__input">
+        <button class="button" type="submit"><span class="btn__label">Subscribe to newsletter</span></button>
+      </form>
+    </div>
+    <div class="box2">
+      <form class="subscribe" method="post" action="">
+        <input type="text" name="name" id="subscribe-name" placeholder="Your name" autocomplete="off" required=""
+          class="subscribe__input">
+        <input type="email" name="email" id="subscribe-email" placeholder="Your email adress" autocomplete="off"
+          required="" class="subscribe__input">
+        <button class="button" type="submit">Subscribe to newsletter</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

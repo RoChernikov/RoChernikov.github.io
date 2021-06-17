@@ -12,7 +12,7 @@
 </head>
 
 <body class="page">
-  <!--Шапка сайта, блок header-->
+  <!--header block-->
   <header class="header">
     <div class="header__content side-padding">
       <div class="logo">
@@ -36,16 +36,18 @@
       </div>
     </div>
   </header>
-  <!--Основное содержимое страницы, блок content-->
+  <!--content block-->
   <main class="content side-padding">
     <div class="center-item"></div>
     <div class="center-item"></div>
     <div class="center-item"></div>
   </main>
-  <!--Подвал сайта, блок footer-->
+  <!--footer block, it's devided into 2 parts (top and bottom)-->
   <footer class="footer">
+    <!--This is the top part of footer. This part is devided into 3 colums-->
     <div class="footer__top">
       <div class="footer__content footer__content_top side-padding">
+        <!--Left column-->
         <div class="footer__column">
           <div class="logo">
             <div class="logo__label"></div>
@@ -75,6 +77,7 @@
             </ul>
           </div>
         </div>
+        <!--Center column-->
         <div class="footer__column">
           <h3 class="footer__title">Recent posts</h3>
           <ul class="footer__recent-posts-list">
@@ -82,35 +85,45 @@
               <img src="./images/recent-posts/yellow-car.png" alt="Yellow car" class="footer__recent-posts-img">
               <div class="footer__recent-posts-text">
                 <h3 class="footer__recent-posts-title">One of Saturn’s largest rings may be newer than…</h3>
-                <p class="footer__recent-posts-subtitle">Rickie Baroch - June 6, 2019</p>
+                <p class="footer__recent-posts-subtitle">Rickie Baroch - June 17, 2021</p>
               </div>
               <a href="#" class="overlay-link"></a>
             </li>
             <li class="footer__recent-posts-card">
               <img src="./images/recent-posts/white-car.png" alt="White car" class="footer__recent-posts-img">
               <div class="footer__recent-posts-text">
-                <h3 class="footer__recent-posts-title">One of Saturn’s largest rings may be newer than…</h3>
-                <p class="footer__recent-posts-subtitle">Rickie Baroch - June 6, 2019</p>
+                <h3 class="footer__recent-posts-title">Scientists using a spacecraft exploring…</h3>
+                <p class="footer__recent-posts-subtitle">Ken Robinson - June 15, 2021</p>
               </div>
               <a href="#" class="overlay-link"></a>
             </li>
             <li class="footer__recent-posts-card">
               <img src="./images/recent-posts/red-car.png" alt="Red car" class="footer__recent-posts-img">
               <div class="footer__recent-posts-text">
-                <h3 class="footer__recent-posts-title">One of Saturn’s largest rings may be newer than…</h3>
-                <p class="footer__recent-posts-subtitle">Rickie Baroch - June 6, 2019</p>
+                <h3 class="footer__recent-posts-title">A new analysis of data collected by…</h3>
+                <p class="footer__recent-posts-subtitle">Jaden Rose - June 12, 2021</p>
               </div>
             </li>
           </ul>
         </div>
+        <!--Right column-->
         <div class="footer__column">
           <h3 class="footer__title">Newsletter</h3>
+          <form class="subscribe" method="post" action="">
+            <input type="text" name="name" id="subscribe-name" placeholder="Your name" autocomplete="off" required=""
+              class="subscribe__input subscribe_theme_dark">
+            <input type="email" name="email" id="subscribe-email" placeholder="Your email adress" autocomplete="off"
+              required="" class="subscribe__input subscribe_theme_dark">
+            <button class="button" type="submit">Subscribe to newsletter</button>
+          </form>
         </div>
       </div>
     </div>
+    <!--This is the bottom part of footer-->
     <div class="footer__bottom">
       <div class="footer__content footer__content_bottom side-padding">
         <p class="footer__copyright">&copy; 2021 Rodion Chernikov. All Rights Reserved.</p>
+        <!--footer navigation-->
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
