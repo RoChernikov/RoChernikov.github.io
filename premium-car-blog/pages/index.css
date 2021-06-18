@@ -32,6 +32,11 @@
 @import url(../blocks/posts-grid/__item/_orger/posts-grid__item_order_first.css);
 @import url(../blocks/posts-grid/__card/posts-grid__card.css);
 @import url(../blocks/posts-grid/__img/posts-grid__img.css);
+@import url(../blocks/posts-grid/__author/posts-grid__author.css);
+@import url(../blocks/posts-grid/__author/_order/posts-grid__author_order_first.css);
+@import url(../blocks/posts-grid/__title/posts-grid__title.css);
+@import url(../blocks/posts-grid/__title/_order/posts-grid__title_order_first.css);
+@import url(../blocks/posts-grid/__link/posts-grid__link.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__top/footer__top.css);
 @import url(../blocks/footer/__bottom/footer__bottom.css);

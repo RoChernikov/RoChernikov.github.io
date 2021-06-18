@@ -1,0 +1,12 @@
+.posts-grid__title {
+  max-width: 265px;
+  position: absolute;
+  bottom: 23px;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #fff;
+}

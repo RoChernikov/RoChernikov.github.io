@@ -1,0 +1,9 @@
+.posts-grid__author {
+  position: absolute;
+  bottom: 90px;
+  left: 20px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+}
