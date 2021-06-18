@@ -1,0 +1,17 @@
+.tag {
+  background-color: #4a90e2;
+  height: 22px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 12px;
+  min-width: 62px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity .12s linear;
+}
+
+.tag:hover {
+  opacity: 85%;
+}

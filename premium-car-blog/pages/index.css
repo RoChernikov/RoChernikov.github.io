@@ -7,6 +7,11 @@
 @import url(../blocks/subscribe/__input/subscripe__input.css);
 @import url(../blocks/subscribe/__input/_theme/subscribe__input_theme_dark.css);
 @import url(../blocks/subscribe/_theme/subscribe_theme_dark.css);
+@import url(../blocks/tag/tag.css);
+@import url(../blocks/tag/_theme/tag_theme_sidebar.css);
+@import url(../blocks/tag/_position/tag_position_recent.css);
+@import url(../blocks/tag/_position/tag_position_main.css);
+@import url(../blocks/tag/_position/tag_position_popular.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__label/logo__label.css);
 @import url(../blocks/logo/__text/logo__text.css);
