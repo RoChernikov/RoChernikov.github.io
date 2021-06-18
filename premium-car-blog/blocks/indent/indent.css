@@ -1,6 +1,6 @@
 /*Decorative side padding for header, main and footer*/
 
-.side-padding {
+.indent {
   padding-left: 20px;
   padding-right: 20px;
 }

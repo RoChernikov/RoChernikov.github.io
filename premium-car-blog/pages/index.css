@@ -1,10 +1,11 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/overlay-link/overlay-link.css);
-@import url(../blocks/side-padding/side-padding.css);
+@import url(../blocks/indent/indent.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/subscribe/subscribe.css);
 @import url(../blocks/subscribe/__input/subscripe__input.css);
+@import url(../blocks/subscribe/__input/_theme/subscribe__input_theme_dark.css);
 @import url(../blocks/subscribe/_theme/subscribe_theme_dark.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/__label/logo__label.css);

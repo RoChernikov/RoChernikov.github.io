@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   border-radius: 5px;
-  transition: transform, .12s linear;
+  transition: box-shadow, transform, .12s linear;
 }
 
 .posts-grid__item:before {
@@ -21,6 +21,6 @@
 }
 
 .posts-grid__item:hover {
-  transform: scale(1.01);
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 60%);
+  transform: scale(1.008);
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 50%);
 }
