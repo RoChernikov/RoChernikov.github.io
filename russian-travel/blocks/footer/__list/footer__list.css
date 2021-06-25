@@ -1,0 +1,23 @@
+.footer__list {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.1;
+  min-height: 18px;
+  transition: font-size .2s linear;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list {
+    /* flex-direction: column; */
+    /* font-size: 24px; */
+    line-height: 1.0;
+  }
+}
+
+@media screen and (max-width: 493px) {
+  .footer__list {
+    flex-direction: column;
+    font-size: 24px;
+    line-height: 1.0;
+  }
+}

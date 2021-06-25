@@ -1,0 +1,5 @@
+.intro {
+  background-color:powderblue;
+  min-height: 52px;
+  transition: padding .2s linear;
+}
