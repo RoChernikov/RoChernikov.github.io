@@ -1,7 +1,7 @@
 .header__lang-list {
   display: flex;
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.2; /*<--28px--*/
   align-items: flex-end;
   /* border: .5px dashed red; */
 }
@@ -9,6 +9,6 @@
 @media screen and (max-width: 767px) {
   .header__lang-list {
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.1; /*<--20px--*/
   }
 }
