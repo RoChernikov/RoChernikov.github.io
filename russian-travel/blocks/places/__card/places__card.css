@@ -1,0 +1,29 @@
+.places__card {
+  /* border: .5px solid red; */
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: 1fr 484px;
+  grid-template-rows: auto;
+  gap: 48px 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .places__card {
+    grid-template-columns: 1fr 456px;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places__card {
+    grid-template-columns: 1fr 352px;
+    gap: 48px 28px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__card {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

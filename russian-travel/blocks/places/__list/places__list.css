@@ -1,0 +1,5 @@
+.places__list {
+  /* border: .5px dashed white; */
+  display: grid;
+  gap: 80px;
+}

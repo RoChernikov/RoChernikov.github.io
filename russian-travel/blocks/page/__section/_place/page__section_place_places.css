@@ -1,0 +1,10 @@
+.page__section_place_places {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+
+@media screen and (max-width: 767px) {
+  .page__section_place_places {
+    padding: 92px 0;
+  }
+}
