@@ -3,7 +3,6 @@
   font-size: 18px;
   line-height: 1.2; /*<--22px--*/
   padding: 0 16px;
-  transition: font-size .2s linear;
 }
 
 @media screen and (max-width: 540px) {

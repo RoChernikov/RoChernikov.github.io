@@ -1,7 +1,6 @@
 .intro__article {
   max-width: 690px;
   min-height: 52px;
-  transition: margin, width .2s linear;
   padding: 92px 0;
 }
 
