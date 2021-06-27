@@ -16,6 +16,6 @@
   .lead__subtitle {
     padding-bottom: 40px;
     font-size: 16px;
-    /* max-width: 288px; */
+    line-height: 1.25;
   }
 }
