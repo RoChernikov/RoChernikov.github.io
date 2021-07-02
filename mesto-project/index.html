@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Место">
+  <meta name="author" content="Родион Черников">
+  <title>Место-Россия</title>
+  <!-- <link rel="icon" href="./images/favicon.png" type="image/png"> -->
+  <link href="./pages/index.css" rel="stylesheet">
+</head>
+
+<body class="page">
+  <!-- Шапка сайта -->
+  <header class="header page__section page__section_place_header">
+    <div class="header__logo"></div>
+  </header>
+  <!-- Декоративная линия-разделитель -->
+  <div class="section-line page__section"></div>
+  <!-- Основная часть сайта -->
+  <main class="main">
+    <section class="profile page__section page__section_place_profile">
+      <img src="./images/avatar.jpg" alt="Аватар" class="profile__avatar">
+      <div class="profile__info">
+        <h1 class="profile__name page-text">Жак-Ив Кусто</h1>
+        <button name="btn-edit" type="button" class="page-btn page-btn_type_edit"><img src="./images/btn_edit_ico.svg"
+            alt="Редактировать" class="page-btn__ico page-btn__ico_type_edit"></button>
+        <p class="profile__profession page-text">Исследователь океана</p>
+      </div>
+      <button name="btn-add" type="button" class="page-btn page-btn_type_add"><img src="./images/btn_add_ico.svg"
+          alt="Добавить" class="page-btn__ico page-btn__ico_type_add"></button>
+    </section>
+    <section class="cards page__section page__section_place_cards">
+
+      <ul class="cards__list page-list">
+        <li class="cards__item">
+          <img src="./images/cards_image/monterey.jpg" alt="Монтерей" class="cards__image">
+          <h2 class="cards__heading page-text">Монтерей</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico"></div>
+          </a>
+        </li>
+        <li class="cards__item">
+          <img src="./images/cards_image/eyjafjallajokull.jpg" alt="Эйяфьядлайёкюдль" class="cards__image">
+          <h2 class="cards__heading page-text">Эйяфьядлайёкюдль</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico cards__like-btn-ico_active"></div>
+          </a>
+        </li>
+        <li class="cards__item">
+          <img src="./images/cards_image/catalina.jpeg" alt="Каталина" class="cards__image">
+          <h2 class="cards__heading page-text">Каталина</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico"></div>
+          </a>
+        </li>
+        <li class="cards__item">
+          <img src="./images/cards_image/mojave.jpeg" alt="Мохаве" class="cards__image">
+          <h2 class="cards__heading page-text">Мохаве</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico"></div>
+          </a>
+        </li>
+        <li class="cards__item">
+          <img src="./images/cards_image/big-sur.jpg" alt="Биг-Сур" class="cards__image">
+          <h2 class="cards__heading page-text">Биг-Сур</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico"></div>
+          </a>
+        </li>
+        <li class="cards__item">
+          <img src="./images/cards_image/yosemite.jpeg" alt="Йосемити" class="cards__image">
+          <h2 class="cards__heading page-text">Йосемити</h2>
+          <a href="#" class="cards__like-btn">
+            <div class="cards__like-btn-ico"></div>
+          </a>
+        </li>
+      </ul>
+
+    </section>
+  </main>
+  <!-- Подвал сайта -->
+  <footer class="footer page__section page__section_place_footer">
+    <p class="footer__copyright page-text">&copy; 2021 Mesto Russia</p>
+  </footer>
+</body>
+
+</html>

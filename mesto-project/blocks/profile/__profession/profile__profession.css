@@ -1,0 +1,15 @@
+.profile__profession {
+  /* border: .5px dashed green; */
+  font-size: 18px;
+  padding-top: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 618px) {
+  .profile__profession {
+    font-size: 14px;
+    justify-self: center;
+  }
+}
