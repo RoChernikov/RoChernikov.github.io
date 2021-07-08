@@ -17,3 +17,7 @@
     right: 5px;
   }
 }
+
+ .popup__close-btn:active { /*<--эксперимент */
+  transform: rotate(45deg);
+}

@@ -15,5 +15,5 @@
 }
 
 .page-btn:active {
-  transform: scale(.97);
+  transform: scale(.97); /*<--эксперимент */
 }
