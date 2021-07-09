@@ -70,15 +70,15 @@
     <p class="footer__copyright page__text">&copy; 2021 Mesto Russia</p>
   </footer>
   <!-- Модальные окна. Модификатор popup_opened открывает модальное окно -->
-  <div class="popup">
+  <div class="popup popup-edit">
     <div class="popup__container">
       <button class="page-btn popup__close-btn" type="button" aria-label="Закрыть"></button>
-      <h2 class="popup__heading page__text">Редактировать профиль</h2>
-      <form class="popup__form" name="profile-edit" action="#" method="GET">
-        <fieldset class="popup__form-field">
-          <input type="text" class="popup__input" name="name" placeholder="Имя">
-          <input type="text" class="popup__input" name="about" placeholder="О себе">
-          <input type="submit" class="popup__submit" value="Сохранить">
+      <form class="form edit-form" name="profile-edit" action="#">
+        <h2 class="form__heading page__text">Редактировать профиль</h2>
+        <fieldset class="form__field">
+          <input type="text" class="form__input" name="name" placeholder="Имя">
+          <input type="text" class="form__input" name="about" placeholder="О себе">
+          <input type="submit" class="form__submit" value="Сохранить">
         </fieldset>
       </form>
     </div>
