@@ -1,7 +1,6 @@
 .cover {
   position: relative;
   max-width: 1184px;
-  height: calc(100% / 1.6);
   display: grid;
   flex-direction: column;
   background-image: url(../../images/cover-trains.jpg);
