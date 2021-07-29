@@ -4,8 +4,8 @@
   background-image: url(../../../images/popup-close-ico.svg);
   background-size: contain;
   position: absolute;
-  top: -40px;
-  right: -40px;
+  top: -44px;
+  right: -44px;
   transform: rotate(45deg);
 }
 
@@ -13,11 +13,7 @@
   .popup__close-btn {
     width: 26px;
     height: 26px;
-    top: -45px;
-    right: 5px;
+    top: -39px;
+    right: -3px;
   }
-}
-
- .popup__close-btn:active { /*<--эксперимент */
-  transform: rotate(45deg);
 }
