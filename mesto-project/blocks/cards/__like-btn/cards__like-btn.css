@@ -9,3 +9,7 @@
 .cards__like-btn:hover {
   opacity: 50%;
 }
+
+.cards__like-btn:focus {
+  outline: none;
+}
