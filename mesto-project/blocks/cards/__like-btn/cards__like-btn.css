@@ -4,7 +4,6 @@
   height: 19px;
   background-image: url(../../../images/like_btn_ico/like_btn_ico_disabled.svg);
   transition: opacity 0.1s linear;
-  outline: none;
 }
 
 .cards__like-btn:hover {

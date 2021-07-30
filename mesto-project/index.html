@@ -62,14 +62,14 @@
           <fieldset class="form__field">
             <input
               type="text"
-              class="form__input"
+              class="form__input form__input_type_name"
               name="name"
               placeholder="Имя"
               required
             />
             <input
               type="text"
-              class="form__input"
+              class="form__input form__input_type_about"
               name="about"
               placeholder="О себе"
               required
@@ -93,15 +93,15 @@
           <fieldset class="form__field">
             <input
               type="text"
-              class="form__input"
+              class="form__input form__input_type_img-title"
               name="title"
               placeholder="Название"
               required
             />
             <input
               type="text"
-              class="form__input"
-              name="href"
+              class="form__input form__input_type_img-link"
+              name="link"
               placeholder="Ссылка на картинку"
               required
             />
@@ -115,10 +115,8 @@
     <div class="popup popup-photo">
       <div class="popup__container popup-photo__container">
         <figure class="popup-photo__figure">
-          <img alt="" src="./images/Photo.jpg" class="popup-photo__image" />
-          <figcaption class="popup-photo__figcaption">
-            Карачаево-Черкессия
-          </figcaption>
+          <img src="#" alt="" class="popup-photo__image" />
+          <figcaption class="popup-photo__figcaption"></figcaption>
         </figure>
         <button
           class="page-btn popup__close-btn"
@@ -145,6 +143,7 @@
         ></button>
       </li>
     </template>
+    <script src="/js/initial-сards.js"></script>
     <script src="./js/script.js"></script>
   </body>
 </html>
