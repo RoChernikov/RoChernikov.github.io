@@ -1,0 +1,20 @@
+.form__input {
+  border: 0;
+  padding: 8px 0;
+  margin-top: 22px;
+  box-sizing: border-box;
+  height: 35px;
+  width: 358px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.form__input:focus {
+  outline-width: 0;
+}
+
+@media screen and (max-width: 618px) {
+  .form__input {
+    width: 238px;
+  }
+}
