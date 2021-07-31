@@ -120,7 +120,7 @@ function createCard(data) {
 //Функция добавления карточки
 function addCard(data) {
   const cardsList = document.querySelector('.cards__list');
-  cardsList.append(createCard(data));
+  cardsList.prepend(createCard(data));
 }
 
 //---+++++Заполняем страницу дефолтными карточками+++++---
