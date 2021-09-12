@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.">
+  <meta name="author" content="Родион Черников">
+  <title>Чик-чирик</title>
+  <link rel="icon" href="./images/favicon.png" type="image/png">
+  <link href="./styles/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" /> <!-- Стили Swiper JS -->
+  <style>
+  </style>
+</head>
+
+<body class="page page__section page__section_place_global">
+  <!-- Шапка сайта -->
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__logo"></div>
+      <h1 class="title title_size_big title_theme_light title_place_header page-text">Не&nbsp;умеете рисовать?
+        Не&nbsp;беда!
+      </h1>
+      <p class="subtitle subtitle_place_header page-text">С&nbsp;помощью нашего приложения вы&nbsp;можете чиркануть
+        каляку
+        и&nbsp;получить
+        шедевр.
+      </p>
+      <button class="button button_place_header">Подробнее</button>
+      <div class="header__image"></div>
+    </div>
+  </header>
+  <!-- Основная часть сайта -->
+  <main class="content page__section">
+    <!-- Секция About -->
+    <section class="about content__section content__section_place_about">
+      <!-- Блок с карточками №1-->
+      <ul class="cards text-cards page-list">
+        <!-- Генерируются по шаблону -->
+      </ul>
+      <!-- Слайдер с текстовыми карточками №1-->
+      <div class="slider-cards">
+        <ul class="slider-cards__wrapper slider-top page-list">
+          <!-- Генерируются по шаблону -->
+        </ul>
+        <div class="slider-cards__pagination"></div>
+      </div>
+      <!-- Заголовок -->
+      <h2 class="title title_size_big title_place_about page-text">Чик-чирик и&nbsp;ваша каляка превращается
+        в&nbsp;изумительное произведение искусства.
+      </h2>
+      <!-- Блок с картинками -->
+      <ul class="about__img-list page-list">
+        <!-- Генерируются по шаблону -->
+      </ul>
+      <!-- Слайдер с картинками -->
+      <div class="slider-img slider-img_place_about">
+        <ul class="slider-img__wrapper page-list">
+          <!-- Генерируются по шаблону -->
+        </ul>
+        <div class="slider-img__pagination"></div>
+      </div>
+      <!-- Блок с карточками №2-->
+      <ul class="cards cards-about page-list">
+        <!-- Генерируются по шаблону -->
+      </ul>
+      <!-- Слайдер с карточками №2 -->
+      <div class="slider-cards">
+        <ul class="slider-cards__wrapper slider-about page-list">
+          <!-- Генерируются по шаблону -->
+        </ul>
+        <div class="slider-cards__pagination"></div>
+      </div>
+    </section>
+    <!-- Секция Proposal -->
+    <section class="proposal content__section content__section_place_proposal">
+      <h2 class="title title_size_big title_place_proposal page-text">Качайте приложение и&nbsp;улучшайте свои
+        художества,
+        а&nbsp;потом хвастайтесь ими!
+      </h2>
+      <!-- Форма -->
+      <form class="form form_place_about" name="proposal-form" action="#">
+        <h3 class="title title_size_small title_place_form page-text">Хотите нам что-то посоветовать?
+        </h3>
+        <p class="subtitle subtitle_place_form page-text">Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами.</p>
+        <fieldset class="form__field">
+          <input type="text" class="form__input" name="name" placeholder="Ваше Имя" required />
+          <input type="email" class="form__input" name="email" placeholder="Контактный Email" required />
+          <textarea name="message" class="form__textarea" placeholder="Сообщение" required></textarea>
+          <input type="submit" class="button button_theme_dark button_place_form" value="Оставить заявку" />
+        </fieldset>
+      </form>
+    </section>
+  </main>
+  <!-- Подвал сайта -->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h3 class="title title_size_small title_theme_light title_place_footer page-text">Хотите скачать приложение?</h3>
+      <p class="subtitle subtitle_place_footer page-text">Качайте в ЭпСтор и ГуглПлэй.</p>
+      <button class="button button_place_footer" disabled>Уже скоро!</button>
+      <div class="footer__image"></div>
+    </div>
+  </footer>
+  <!--+++++++Шаблон картинки+++++++-->
+  <template id="img-template">
+    <li class="about__img-item"><img class="about__img">
+    </li>
+  </template>
+  <!--+++++++Шаблон картинки для слайдера+++++++-->
+  <template id="img-template-slider">
+    <li class="slider-img__item"><img class="slider-img__image">
+    </li>
+  </template>
+  <!--+++++++Шаблон карточки с текстом+++++++-->
+  <template id="text-card-template">
+    <li class="cards__item">
+      <p class="cards__tag page-text"></p>
+      <h2 class="title title_size_small title_place_card page-text"></h2>
+      <p class="cards__content page-text"></p>
+    </li>
+  </template>
+  <!--+++++++Шаблон карточки с текстом для слайдера+++++++-->
+  <template id="text-card-slider-template">
+    <li class="slider-cards__item">
+      <p class="slider-cards__tag page-text"></p>
+      <h2 class="title title_size_small title_place_card page-text"></h2>
+      <p class="slider-cards__content page-text"></p>
+    </li>
+  </template>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> <!-- Импорт Swiper JS -->
+  <script src="./js/initial-сards.js"></script> <!-- Импорт дефолтных карточек -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

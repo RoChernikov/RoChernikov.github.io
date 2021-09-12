@@ -1,0 +1,38 @@
+$className: 'button';
+
+.#{$className} {
+  width: 240px;
+  height: 54px;
+  border: none;
+  border-radius: 8px;
+  color: $darkAccent;
+  background-color: $SubColor;
+  font-family: $primaryFont;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 93%;
+  }
+
+  &:disabled {
+    background-color: $SubColor;
+    opacity: 100%;
+    cursor: default;
+  }
+}
+
+@include breakPoint ($className, 967px) {
+  height: 48px;
+  font-size: 14px;
+}
+
+@include breakPoint ($className, 510px) {
+  height: 44px;
+  width: 260px;
+  font-size: 12px;
+  line-height: 2;
+}

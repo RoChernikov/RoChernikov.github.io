@@ -1,0 +1,19 @@
+$className: 'button_place_form';
+
+.#{$className} {
+  width: 194px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  grid-column: 2;
+  justify-self: end;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  grid-column: auto;
+  width: 100%;
+  margin: 30px 0;
+}
+
+@include breakPoint ($className, 399px) {
+  margin-bottom: 20px;
+}

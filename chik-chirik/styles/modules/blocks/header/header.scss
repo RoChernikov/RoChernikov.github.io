@@ -1,0 +1,12 @@
+$className: 'header';
+
+.#{$className} {
+  background-color: $darkAccent;
+  width: 100%;
+  border-radius: 20px;
+  color: $SubColor;
+}
+
+@include breakPoint ($className, 483px) {
+  border-radius: 10px;
+}

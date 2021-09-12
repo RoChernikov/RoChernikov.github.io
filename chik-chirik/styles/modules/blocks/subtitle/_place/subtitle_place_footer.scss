@@ -1,0 +1,14 @@
+$className: 'subtitle_place_footer';
+
+.#{$className} {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.4;
+  opacity: 70%;
+  color: $secondaryFontColor;
+}
+
+@include breakPoint ($className, 679px) {
+  margin-top: 14px;
+  font-size: 12px;
+}

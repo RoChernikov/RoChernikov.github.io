@@ -1,0 +1,14 @@
+$className: 'about__img-item';
+
+.#{$className} {
+  width: 100%;
+  margin-right: 25px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  margin-right: 15px;
+}

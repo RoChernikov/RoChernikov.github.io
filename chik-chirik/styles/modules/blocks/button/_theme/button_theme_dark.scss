@@ -1,0 +1,14 @@
+.button_theme_dark {
+  background-color: $darkAccent;
+  color: $secondaryFontColor;
+
+  &:hover {
+    opacity: 85%;
+  }
+
+  &:disabled {
+    background-color: $darkAccent;
+    opacity: 100%;
+    cursor: default;
+  }
+}

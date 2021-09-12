@@ -1,0 +1,14 @@
+$className: 'subtitle_place_form';
+
+.#{$className} {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  margin-top: 24px;
+}
+
+@include breakPoint ($className, 399px) {
+  margin-top: 20px;
+}

@@ -1,0 +1,10 @@
+$className: 'title_size_small';
+
+.#{$className} {
+  font-size: 32px;
+  line-height: 1.19;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  font-size: 26px;
+}

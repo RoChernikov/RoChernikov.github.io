@@ -1,0 +1,21 @@
+$className: 'footer__wrapper';
+
+.#{$className} {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  -webkit-clip-path: inset(-100vw -100vw -0.04vw -100vw);
+  clip-path: inset(-100vw -100vw -0.04vw -100vw);
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  padding: 0 50px;
+}
+
+@include breakPoint ($className, 483px) {
+  padding: 0 20px;
+}

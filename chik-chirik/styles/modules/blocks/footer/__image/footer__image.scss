@@ -1,0 +1,24 @@
+$className: 'footer__image';
+
+.#{$className} {
+  background-image: url(../images/footer_image.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -30px;
+  right: 110px;
+  width: 311px;
+  height: 630px;
+  filter: $shadow;
+  -webkit-filter: $shadow;
+}
+
+@include breakPoint ($className, 832px) {
+  width: 250px;
+  height: 502px;
+  right: 69px;
+}
+
+@include breakPoint ($className, 679px) {
+  display: none;
+}

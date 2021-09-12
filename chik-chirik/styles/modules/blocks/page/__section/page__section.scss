@@ -1,0 +1,16 @@
+$className: 'page__section';
+
+.#{$className} {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  padding: 0 20px;
+}
+
+@include breakPoint ($className, 420px) {
+  padding: 0;
+}

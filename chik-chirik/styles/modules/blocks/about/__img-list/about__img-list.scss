@@ -1,0 +1,16 @@
+$className: 'about__img-list';
+
+.#{$className} {
+  margin: 120px 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  margin: 70px 0;
+}
+
+@include breakPoint ($className, $mobileWidth) {
+  display: none;
+}

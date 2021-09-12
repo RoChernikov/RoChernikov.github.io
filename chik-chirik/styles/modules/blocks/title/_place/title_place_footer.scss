@@ -1,0 +1,22 @@
+$className: 'title_place_footer';
+
+.#{$className} {
+  line-height: 1.19;
+  margin-top: 60px;
+  max-width: 460px;
+}
+
+@include breakPoint ($className, 967px) {
+  margin-top: 50px;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  font-size: 32px;
+  line-height: 1.19;
+}
+
+@include breakPoint ($className, 679px) {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}

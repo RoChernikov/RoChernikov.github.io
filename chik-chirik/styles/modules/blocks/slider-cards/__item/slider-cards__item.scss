@@ -1,0 +1,19 @@
+$className: 'slider-cards__item';
+
+.#{$className} {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content;
+  align-content: start;
+  width: 100%;
+  min-height: 284px;
+  background-color: $lightAccent;
+  border-radius: 20px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+@include breakPoint ($className, 540px) {
+  padding: 0 20px;
+}

@@ -1,0 +1,41 @@
+$className: 'form__input';
+
+.#{$className} {
+  color: $primaryFontColor;
+  padding-left: 20px;
+  height: 54px;
+  border: none;
+  border-radius: 8px;
+
+  &::placeholder {
+    color: $primaryFontColor;
+    opacity: 30%;
+  }
+
+  &:hover {
+    height: 56px;
+    padding-left: 19px;
+    box-sizing: border-box;
+    border: 1px solid #e4e4e4;
+  }
+
+  &:focus {
+    outline: none;
+    border: 1px solid #e4e4e4;
+    box-sizing: border-box;
+
+    &::placeholder {
+      color: transparent;
+    }
+  }
+}
+
+@include breakPoint ($className, 510px) {
+  font-size: 12px;
+  line-height: 2;
+
+  &::placeholder {
+    font-size: 12px;
+    line-height: 2;
+  }
+}

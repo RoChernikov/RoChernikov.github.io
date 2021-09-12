@@ -1,0 +1,11 @@
+$className: 'slider-cards';
+
+.#{$className} {
+  display: none;
+  overflow: hidden;
+  position: relative;
+}
+
+@include breakPoint ($className, $mobileWidth) {
+  display: block;
+}

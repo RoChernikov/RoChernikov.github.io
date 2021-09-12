@@ -1,0 +1,9 @@
+$className: 'slider-img_place_about';
+
+.#{$className} {
+  margin: 70px 0;
+}
+
+@include breakPoint ($className, $mobileWidth) {
+  padding: 0 20px;
+}
