@@ -1,14 +1,18 @@
-$className: 'title_place_about';
+$className: 'proposal__title';
 
 .#{$className} {
-  margin-top: 120px;
+  font-size: 60px;
+  line-height: 1.15;
 }
 
 @include breakPoint ($className, $tabletWidth) {
+  font-size: 33px;
+  line-height: 1.12;
   padding: 0 30px;
-  margin-top: 70px;
 }
 
 @include breakPoint ($className, 399px) {
   padding: 0 20px;
+  font-size: 26px;
+  line-height: 1.2;
 }

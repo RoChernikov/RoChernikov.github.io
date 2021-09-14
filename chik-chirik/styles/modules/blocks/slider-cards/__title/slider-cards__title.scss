@@ -1,0 +1,12 @@
+$className: 'slider-cards__title';
+
+.#{$className} {
+  margin-top: 20px;
+  grid-row: 2;
+  grid-column: 1;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  margin-top: 12px;
+  font-size: 26px;
+}

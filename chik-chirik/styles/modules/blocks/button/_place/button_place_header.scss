@@ -5,7 +5,7 @@ $className: 'button_place_header';
   margin-bottom: 50px;
 }
 
-@include breakPoint ($className, 967px) {
+@include breakPoint ($className, 1050px) {
   margin-top: 250px;
 }
 

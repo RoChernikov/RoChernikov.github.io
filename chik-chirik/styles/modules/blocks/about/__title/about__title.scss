@@ -1,0 +1,26 @@
+$className: 'about__title';
+
+.#{$className} {
+  margin-top: 120px;
+  font-size: 60px;
+  line-height: 1.15;
+}
+
+@include breakPoint ($className, 967px) {
+  font-size: 33px;
+  line-height: 1.13;
+}
+
+@include breakPoint ($className, $tabletWidth) {
+  padding: 0 30px;
+  margin-top: 70px;
+}
+
+@include breakPoint ($className, 399px) {
+  padding: 0 20px;
+}
+
+@include breakPoint ($className, 320px) {
+  font-size: 26px;
+  line-height: 1.2;
+}

@@ -30,7 +30,7 @@ $className: 'button';
   font-size: 14px;
 }
 
-@include breakPoint ($className, 510px) {
+@include breakPoint ($className, 320px) {
   height: 44px;
   width: 260px;
   font-size: 12px;

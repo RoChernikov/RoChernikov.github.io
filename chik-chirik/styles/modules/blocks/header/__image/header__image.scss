@@ -9,7 +9,7 @@ $className: 'header__image';
   width: 311px;
   height: 630px;
   margin-right: 60px;
-  margin-left: 43px;
+  margin-left: 82px;
   filter: $shadow;
   -webkit-filter: $shadow;
   grid-column: 2;
@@ -17,7 +17,7 @@ $className: 'header__image';
   z-index: 2;
 }
 
-@include breakPoint ($className, 967px) {
+@include breakPoint ($className, 1050px) {
   width: 250px;
   height: 502px;
   top: 120px;

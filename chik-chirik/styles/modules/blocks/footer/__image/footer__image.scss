@@ -3,22 +3,36 @@ $className: 'footer__image';
 .#{$className} {
   background-image: url(../images/footer_image.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -30px;
-  right: 110px;
+  background-size: cover;
+  background-position: top;
   width: 311px;
-  height: 630px;
+  height: 500px;
   filter: $shadow;
   -webkit-filter: $shadow;
+  margin-right: 23%;
+  margin-left: 50px;
+  position: relative;
+  top: -30px;
+  grid-column: 2;
+  grid-row: 1/5;
+  justify-self: end;
 }
 
-@include breakPoint ($className, 832px) {
+@include breakPoint ($className, 1170px) {
+  margin-right: 0;
+}
+
+@include breakPoint ($className, $tabletWidth) {
   width: 250px;
-  height: 502px;
-  right: 69px;
+  height: 432px;
+  margin-right: 19px;
+  top: -32px;
 }
 
-@include breakPoint ($className, 679px) {
+@include breakPoint ($className, 767px) {
+  margin-right: 0;
+}
+
+@include breakPoint ($className, 685px) {
   display: none;
 }

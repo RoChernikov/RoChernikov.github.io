@@ -1,6 +1,6 @@
 // --+++Переменные для скролла по нажатию кнопки в шапке+++--
 const detailsBtn = document.querySelector('.button_place_header');
-const detailsInfo = document.querySelector('.title_place_about');
+const detailsInfo = document.querySelector('.about__title');
 // -----------------------------------------------------------------
 
 // --+++Функция скролла по нажатию кнопки в шапке+++--
@@ -86,7 +86,7 @@ const addTextCard = (data) => document.querySelector('.text-cards').append(creat
 // -----------------------------------------------------------------
 
 // --+++Функция добавления карточки с текстом (about)+++--
-const addTextCardAbout = (data) => document.querySelector('.cards-about').append(createTextCard(data));
+const addTextCardAbout = (data) => document.querySelector('.about__cards').append(createTextCard(data));
 // -----------------------------------------------------------------
 
 // --+++Функция создания карточки с текстом (слайдер)+++--

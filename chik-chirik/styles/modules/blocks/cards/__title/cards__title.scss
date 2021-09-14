@@ -1,4 +1,4 @@
-$className: 'title_place_card';
+$className: 'cards__title';
 
 .#{$className} {
   margin-top: 20px;
@@ -8,4 +8,5 @@ $className: 'title_place_card';
 
 @include breakPoint ($className, $tabletWidth) {
   margin-top: 12px;
+  font-size: 26px;
 }
