@@ -1,9 +1,0 @@
-.footer {
-  min-height: 78px;
-}
-
-@media screen and (max-width: 618px) {
-  .footer {
-    min-height: 50px;
-  }
-}
