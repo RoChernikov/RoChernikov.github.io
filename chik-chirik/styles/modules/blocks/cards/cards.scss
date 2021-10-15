@@ -1,9 +1,0 @@
-$className: 'cards';
-
-.#{$className} {
-  display: flex;
-}
-
-@include breakPoint ($className, $mobileWidth) {
-  display: none;
-}
